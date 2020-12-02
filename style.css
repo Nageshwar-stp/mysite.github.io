@@ -1,0 +1,287 @@
+body {
+    background-color: black;
+}
+
+.heading {
+    color: rgb(132, 223, 41);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#menu {
+    margin-top: -60px;
+
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 15px;
+    float: right;
+    color: white;
+    padding: 2px;
+    font-family: Optima;
+    transition: 0.5s;
+    opacity: 1;
+    margin-top: 15px;
+
+
+}
+
+ul#menu li:hover {
+    color: rgb(217, 0, 255);
+    /* border: 1px solid rgb(255, 255, 255); */
+    background-color: rgb(0, 0, 0);
+    font-style: initial;
+
+    /* font-size: 17px; */
+    /* background-blend-mode: 0.8; */
+    /* transition-delay: 0.1s; */
+
+}
+
+.slogan {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: Optima;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(180, 180, 182);
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+.introduction {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+.intro {
+    color: rgb(250, 204, 0);
+    text-align: center;
+    font-size: 26px;
+    font-family: Optima;
+    font-weight: bold;
+    padding-bottom: 8px;
+
+}
+
+.intro:hover {
+    color: rgb(255, 136, 0);
+}
+
+.detail {
+    color: white;
+    text-align: center;
+    font-family: Optima;
+    font-size: 18px;
+}
+
+.help {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(24, 3, 31)
+}
+
+.weare {
+
+    color: rgb(207, 105, 22);
+    text-align: center;
+    font-size: 26px;
+    font-family: Optima;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.desc {
+    color: white;
+    font-family: Optima;
+    font-size: 18px;
+}
+
+.doubt {
+    text-align: center;
+    color: white;
+    /* margin:20px; */
+    background-color: rgb(37, 37, 37);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.anydoubt {
+    font-size: 40px;
+    font-family: Optima;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.btn a {
+    color: black;
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    border: 4px solid black;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+    box-shadow: 4px 4px 1px black;
+    transition: 0.5s;
+}
+.btn a:hover{
+    color: white;
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    border: 4px solid white;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: black;
+    box-shadow: 4px 4px 1px black;
+
+}
+
+.choice ul{
+    align-items: center;
+    color: red;
+    
+}
+
+.choice a{
+    text-decoration: none;
+    /* color: red; */
+    
+
+}
+.choice a li{
+    list-style: none;
+    flex: block;
+    display: inline;
+    padding: 20px;
+    color: red;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+    #menu {
+        margin-top: -25px;
+
+    }
+
+    ul#menu li {
+
+        margin-top: 15px;
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+
+    .heading {
+
+        font-size: 20px;
+
+    }
+    
+    hr{
+        height: 70px;
+    }
+
+    .slogan{
+        font-size: 18px;
+    }
+    .intro{
+        font-size: 18px;
+    }
+    .detail{
+        font-size: 13px
+    }
+
+    .weare{
+        font-size: 18px;
+    }
+    .desc{
+        font-size: 13px
+    }
+    .anydoubt{
+        font-size: 25px;
+    }
+    .btn a {
+    color: black;
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 10px;
+    border: 4px solid black;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+    box-shadow: 4px 4px 1px black;
+    transition: 0.5s;
+}
+.btn a:hover{
+    color: white;
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 10px;
+    border: 4px solid white;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: black;
+    box-shadow: 4px 4px 1px black;
+
+}
+}
